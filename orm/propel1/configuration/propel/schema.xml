@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- http://www.propelorm.org/Propel/reference/schema.html -->
+<!-- http://www.propelorm.org/Propel/documentation/02-buildtime.html -->
+<database name="trainee_database" defaultIdMethod="native" namespace="Trainee\Database">
+    <!-- album -->
+    <table name="album" phpName="Album">
+        <column name="id" primaryKey="true" type="INTEGER"	size="11" required="true" />
+        <column name="interpret_id" primaryKey="true" type="INTEGER"	size="11" required="true" />
+        <column name="title" type="varchar" size="40" required="true" />
+        <column name="number_of_tracks" type="TINYINT"	size="2" required="true" />
+
+        <foreign-key foreignTable="interpret">
+            <reference local="interpret_id" foreign="id" />
+        </foreign-key>
+
+        <index>
+            <index-column name="title" />
+        </index>
+
+        <vendor type="mysql">
+            <parameter name="Engine" value="InnoDB"/>
+            <parameter name="Charset" value="utf8"/>
+        </vendor>
+    </table>
+
+    <!-- interpret -->
+    <table name="interpret" phpName="Interpret">
+        <column name="id" primaryKey="true" type="INTEGER"	size="11" required="true" />
+        <column name="name" type="varchar" size="80" required="true" />
+        <column name="is_sampler" type="TINYINT"	size="1" required="true" />
+
+        <index>
+            <index-column name="name" />
+        </index>
+        <index>
+            <index-column name="is_sampler" />
+        </index>
+
+        <vendor type="mysql">
+            <parameter name="Engine" value="InnoDB"/>
+            <parameter name="Charset" value="utf8"/>
+        </vendor>
+    </table>
+</database>

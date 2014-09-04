@@ -1,0 +1,25 @@
+{
+    "description": "trainee orm propel1",
+    "keywords": ["example", "trainee", "orm", "propel1"],
+    "license": "LGPLv3",
+    "name": "stevleibelt/trainee",
+    "type": "example",
+    "authors": [
+        {
+            "email": "artodeto@bazzline.net",
+            "homepage": "https://artodeto.bazzline.et",
+            "name": "Stev Leibelt",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "propel/propel1": "1.7.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Trainee": "source/"
+        }
+    }
+}
