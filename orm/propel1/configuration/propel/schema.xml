@@ -13,7 +13,7 @@
             <reference local="interpret_id" foreign="id" />
         </foreign-key>
 
-        <index>
+        <index name="title">
             <index-column name="title" />
         </index>
 
@@ -29,10 +29,10 @@
         <column name="name" type="varchar" size="80" required="true" />
         <column name="is_sampler" type="TINYINT"	size="1" required="true" />
 
-        <index>
+        <index name="name">
             <index-column name="name" />
         </index>
-        <index>
+        <index name="is_sampler">
             <index-column name="is_sampler" />
         </index>
 

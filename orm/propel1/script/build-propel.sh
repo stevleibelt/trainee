@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 ####
 # @author stev leibelt <artodeto@bazzline.net>
 # @since 2014-09-05

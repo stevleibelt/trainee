@@ -16,7 +16,7 @@ CREATE TABLE trainee_orm_propel1_album
     title VARCHAR(40) NOT NULL,
     number_of_tracks TINYINT(2) NOT NULL,
     PRIMARY KEY (id,interpret_id),
-    INDEX trainee_orm_propel1_album_I_1 (title),
+    INDEX title (title),
     INDEX trainee_orm_propel1_album_FI_1 (interpret_id),
     CONSTRAINT trainee_orm_propel1_album_FK_1
         FOREIGN KEY (interpret_id)
@@ -35,8 +35,8 @@ CREATE TABLE trainee_orm_propel1_interpret
     name VARCHAR(80) NOT NULL,
     is_sampler TINYINT(1) NOT NULL,
     PRIMARY KEY (id),
-    INDEX trainee_orm_propel1_interpret_I_1 (name),
-    INDEX trainee_orm_propel1_interpret_I_2 (is_sampler)
+    INDEX name (name),
+    INDEX is_sampler (is_sampler)
 ) ENGINE=InnoDB CHARACTER SET='utf8';
 
 # This restores the fkey checks, after having unset them earlier
