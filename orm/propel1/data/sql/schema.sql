@@ -4,39 +4,39 @@
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ---------------------------------------------------------------------
--- trainee_orm_propel1album
+-- trainee_orm_propel1_album
 -- ---------------------------------------------------------------------
 
-DROP TABLE IF EXISTS trainee_orm_propel1album;
+DROP TABLE IF EXISTS trainee_orm_propel1_album;
 
-CREATE TABLE trainee_orm_propel1album
+CREATE TABLE trainee_orm_propel1_album
 (
     id INTEGER(11) NOT NULL AUTO_INCREMENT,
     interpret_id INTEGER(11) NOT NULL,
     title VARCHAR(40) NOT NULL,
     number_of_tracks TINYINT(2) NOT NULL,
     PRIMARY KEY (id,interpret_id),
-    INDEX trainee_orm_propel1album_I_1 (title),
-    INDEX trainee_orm_propel1album_FI_1 (interpret_id),
-    CONSTRAINT trainee_orm_propel1album_FK_1
+    INDEX trainee_orm_propel1_album_I_1 (title),
+    INDEX trainee_orm_propel1_album_FI_1 (interpret_id),
+    CONSTRAINT trainee_orm_propel1_album_FK_1
         FOREIGN KEY (interpret_id)
-        REFERENCES trainee_orm_propel1interpret (id)
+        REFERENCES trainee_orm_propel1_interpret (id)
 ) ENGINE=InnoDB CHARACTER SET='utf8';
 
 -- ---------------------------------------------------------------------
--- trainee_orm_propel1interpret
+-- trainee_orm_propel1_interpret
 -- ---------------------------------------------------------------------
 
-DROP TABLE IF EXISTS trainee_orm_propel1interpret;
+DROP TABLE IF EXISTS trainee_orm_propel1_interpret;
 
-CREATE TABLE trainee_orm_propel1interpret
+CREATE TABLE trainee_orm_propel1_interpret
 (
     id INTEGER(11) NOT NULL AUTO_INCREMENT,
     name VARCHAR(80) NOT NULL,
     is_sampler TINYINT(1) NOT NULL,
     PRIMARY KEY (id),
-    INDEX trainee_orm_propel1interpret_I_1 (name),
-    INDEX trainee_orm_propel1interpret_I_2 (is_sampler)
+    INDEX trainee_orm_propel1_interpret_I_1 (name),
+    INDEX trainee_orm_propel1_interpret_I_2 (is_sampler)
 ) ENGINE=InnoDB CHARACTER SET='utf8';
 
 # This restores the fkey checks, after having unset them earlier
