@@ -2,13 +2,15 @@
 
 Learn how to use and administrate [propel1](http://propelorm.org/Propel/documentation/).
 
-It does not matter if you are solving the following tasks as command line script or as website
+It does not matter if you are solving the following tasks as command line script or as website.
+The [index.php](https://github.com/stevleibelt/trainee/blob/master/orm/propel1/public/index.php) file should be your starting point. This file provides autoloading out of the box.
+Composer autoloader is defined that way, that each file in [Trainee](https://github.com/stevleibelt/trainee/blob/master/orm/propel1/source/Trainee) will be loaded automatically.
 
 If you make changes to the "schema.xml", use "script/build-propel.sh" to update your objects.
 
 # Tasks
 
-* setup a database on your local database management system (adapt configuration/propel/build.properties if needed, use files in data/sql)
+* setup a database on your local database management system (adapt [configuration/propel/build.properties](https://github.com/stevleibelt/trainee/blob/master/orm/propel1/configuration/propel/build.properties) if needed, use files in [data/sql](https://github.com/stevleibelt/trainee/blob/master/orm/propel1/data/sql])
 * read the documentation
 * implement way to access your database via propel
 * implement output of content interpret or album
