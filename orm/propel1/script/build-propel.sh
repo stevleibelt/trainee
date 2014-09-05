@@ -7,5 +7,5 @@
 SCRIPT_PATH=$(cd $(dirname "$0"); pwd)
 cd "$SCRIPT_PATH/../configuration/propel"
 # builind propel
-sh "$SCRIPT_PATH/../vendor/bin/propel-gen"
+bash "$SCRIPT_PATH/../vendor/bin/propel-gen"
 exit 0
