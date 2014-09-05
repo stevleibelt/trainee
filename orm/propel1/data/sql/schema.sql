@@ -11,7 +11,7 @@ DROP TABLE IF EXISTS trainee_orm_propel1album;
 
 CREATE TABLE trainee_orm_propel1album
 (
-    id INTEGER(11) NOT NULL,
+    id INTEGER(11) NOT NULL AUTO_INCREMENT,
     interpret_id INTEGER(11) NOT NULL,
     title VARCHAR(40) NOT NULL,
     number_of_tracks TINYINT(2) NOT NULL,
@@ -31,7 +31,7 @@ DROP TABLE IF EXISTS trainee_orm_propel1interpret;
 
 CREATE TABLE trainee_orm_propel1interpret
 (
-    id INTEGER(11) NOT NULL,
+    id INTEGER(11) NOT NULL AUTO_INCREMENT,
     name VARCHAR(80) NOT NULL,
     is_sampler TINYINT(1) NOT NULL,
     PRIMARY KEY (id),

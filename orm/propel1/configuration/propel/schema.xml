@@ -4,7 +4,7 @@
 <database name="trainee_database" defaultIdMethod="native" namespace="Trainee\Database">
     <!-- album -->
     <table name="album" phpName="Album">
-        <column name="id" primaryKey="true" type="INTEGER"	size="11" required="true" />
+        <column name="id" primaryKey="true" autoIncrement="true" type="INTEGER"	size="11" required="true" />
         <column name="interpret_id" primaryKey="true" type="INTEGER"	size="11" required="true" />
         <column name="title" type="varchar" size="40" required="true" />
         <column name="number_of_tracks" type="TINYINT"	size="2" required="true" />
@@ -25,7 +25,7 @@
 
     <!-- interpret -->
     <table name="interpret" phpName="Interpret">
-        <column name="id" primaryKey="true" type="INTEGER"	size="11" required="true" />
+        <column name="id" primaryKey="true" type="INTEGER"	autoIncrement="true" size="11" required="true" />
         <column name="name" type="varchar" size="80" required="true" />
         <column name="is_sampler" type="TINYINT"	size="1" required="true" />
 
