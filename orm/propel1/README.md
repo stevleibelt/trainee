@@ -33,3 +33,4 @@ If you make changes to the "schema.xml", use "script/build-propel.sh" to update 
     * what benefits and drawbacks can you list by using an orm?
     * how can you write a plain sql statement with propel?
         * when could this be usefull?
+* did you find any optimization potential to the schema.xml?
