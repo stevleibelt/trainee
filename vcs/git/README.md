@@ -3,7 +3,7 @@
 Learn how to use the [git](https://en.wikipedia.org/wiki/Git_(software)) [VCS](https://en.wikipedia.org/wiki/Revision_control).
 Search for "public git testserver" or "public svn testserver" to play around with svn or git. If there is no public svn server, try to ask your company if there is an existing one.
 
-# Tasks
+## Tasks
 
 * if possible, try to do the following tasks with git and with svn
     * setup a local git repository
@@ -33,19 +33,21 @@ Search for "public git testserver" or "public svn testserver" to play around wit
     * can you create a conflict?
         * if so, how?
     * play around with it
-* answere following questions
-    * what is a repository?
-    * what is a commit?
-    * what is a master?
-    * what is a trunk?
-    * what is a branch?
-    * what is a tag?
-    * what is a fork?
-    * what is merging?
-    * what does staging mean?
-    * what does cloning mean?
-    * what is rebasing?
-    * what is the difference between [git](https://en.wikipedia.org/wiki/Git_(software)) and [svn](https://en.wikipedia.org/wiki/Apache_Subversion)?
+
+## Answere Yourself the Following Questions
+
+* what is a repository?
+* what is a commit?
+* what is a master?
+* what is a trunk?
+* what is a branch?
+* what is a tag?
+* what is a fork?
+* what is merging?
+* what does staging mean?
+* what does cloning mean?
+* what is rebasing?
+* what is the difference between [git](https://en.wikipedia.org/wiki/Git_(software)) and [svn](https://en.wikipedia.org/wiki/Apache_Subversion)?
 
 # Links
 
