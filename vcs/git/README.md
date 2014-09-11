@@ -1,4 +1,4 @@
-# Git Version Controll System Trainee Story
+# Git Trainee Story in Section Version Control System
 
 Learn how to use the [git](https://en.wikipedia.org/wiki/Git_(software)) [VCS](https://en.wikipedia.org/wiki/Revision_control).
 Search for "public git testserver" or "public svn testserver" to play around with svn or git. If there is no public svn server, try to ask your company if there is an existing one.
