@@ -1,3 +1,1 @@
-# Mockery Trainee Story in Section Unit Test
-
-@todo
+# @todo Mockery Trainee Story in Section Unit Test

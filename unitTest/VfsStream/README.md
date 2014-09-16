@@ -1,3 +1,1 @@
-# VfsStream Trainee Story in Section Unit Test
-
-@todo
+# @todo VfsStream Trainee Story in Section Unit Test
