@@ -7,4 +7,4 @@ For php projects, a prepared composer.json file will be implemented when needed.
 
 Big thanks to [xyNNN](https://github.com/xyNNN) for this idea.
 
-@todo implement automatically generating index
+## Sections
