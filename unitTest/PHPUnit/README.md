@@ -2,11 +2,6 @@
 
 Learn how to write unit tests with the php [de facto](https://en.wikipedia.org/wiki/De_facto) standard implementation [PHPUnit](https://phpunit.de/).
 
-@todo
-* create empty unit test file
-* create validator that needs to get covered by a unit test
-* create a unit test that needs a real implementation to test against
-
 ## Tasks
 
 * read [getting started](https://phpunit.de/getting-started.html)
@@ -15,6 +10,7 @@ Learn how to write unit tests with the php [de facto](https://en.wikipedia.org/w
 * read [documentation](https://phpunit.de/documentation.html)
 * implement tests for LoggerTest
 * cover "StringFilter" with a test case
+* write a class that passes all tests in the "StringHelperTest"
 * implement or extend a test using @dataProvider
 * implement or extend a test using @depends
 * implement or extend a test case using [fixtures](https://phpunit.de/manual/current/en/fixtures.html)
