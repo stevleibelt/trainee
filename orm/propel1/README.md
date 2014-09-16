@@ -10,7 +10,7 @@ If you make changes to the "schema.xml", use "script/build-propel.sh" to update 
 
 ## Tasks
 
-* setup a database on your local database management system (adapt [configuration/propel/build.properties](https://github.com/stevleibelt/trainee/blob/master/orm/propel1/configuration/propel/build.properties) if needed, use files in [data/sql](https://github.com/stevleibelt/trainee/blob/master/orm/propel1/data/sql])
+* setup a database on your local database management system (adapt [configuration/propel/build.properties](https://github.com/stevleibelt/trainee/blob/master/orm/propel1/configuration/propel/build.properties) if needed, use files in [data/sql](https://github.com/stevleibelt/trainee/blob/master/orm/propel1/data/sql]) (you have to setup your database username, password etc.)
 * read the documentation
 * implement way to access your database via propel
 * implement output of content interpret or album
