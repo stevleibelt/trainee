@@ -13,6 +13,8 @@ Learn how to write unit tests with the php [de facto](https://en.wikipedia.org/w
 * install phpunit
 * execute phpunit (php vendor/bin/phpunit)
 * read [documentation](https://phpunit.de/documentation.html)
+* implement tests for LoggerTest
+* cover "StringFilter" with a test case
 * implement or extend a test using @dataProvider
 * implement or extend a test using @depends
 * implement or extend a test case using [fixtures](https://phpunit.de/manual/current/en/fixtures.html)
