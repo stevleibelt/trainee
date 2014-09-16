@@ -26,7 +26,7 @@ Learn how to use the [package manager](http://en.wikipedia.org/wiki/Package_mana
         * create a simple console command or application
    * beautify your composer.json to get familiar with the options
 
-## Answere Yourself the Following Questions
+## Answer Yourself the Following Questions
 
 * what is a package manager?
 * what is a dependency?

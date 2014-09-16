@@ -1,7 +1,7 @@
 # Git Trainee Story in Section Version Control System
 
 Learn how to use the [git](https://en.wikipedia.org/wiki/Git_(software)) [VCS](https://en.wikipedia.org/wiki/Revision_control).
-Search for "public git testserver" or "public svn testserver" to play around with svn or git. If there is no public svn server, try to ask your company if there is an existing one.
+Search for "public git test server" or "public svn test server" to play around with svn or git. If there is no public svn server, try to ask your company if there is an existing one.
 
 ## Tasks
 
@@ -10,7 +10,7 @@ Search for "public git testserver" or "public svn testserver" to play around wit
     * create a branch "my_branch"
     * switch to "my_branch" (if needed)
     * create a file
-    * add the file to the stageing area
+    * add the file to the staging area
         * what do you expect if your run "git diff"?
         * what is the result of it?
     * update the content of the file
@@ -34,7 +34,7 @@ Search for "public git testserver" or "public svn testserver" to play around wit
         * if so, how?
     * play around with it
 
-## Answere Yourself the Following Questions
+## Answer Yourself the Following Questions
 
 * what is a repository?
 * what is a commit?

@@ -21,7 +21,7 @@ If you make changes to the "schema.xml", use "script/build-propel.sh" to update 
 * add a table called "tracklist" that includes usefull informations about a track on a album
 * write a query that returns just "id" and "name" from the interpret table
 
-## Answere Yourself the Following Questions
+## Answer Yourself the Following Questions
 
 * what is pdo?
 * what is an orm?
