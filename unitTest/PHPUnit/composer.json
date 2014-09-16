@@ -1,0 +1,27 @@
+{
+    "description": "trainee unit test PHPUnit",
+    "keywords": ["example", "trainee", "unit test", "phpunit"],
+    "license": "LGPLv3",
+    "name": "stevleibelt/trainee",
+    "type": "example",
+    "authors": [
+        {
+            "email": "artodeto@bazzline.net",
+            "homepage": "https://artodeto.bazzline.et",
+            "name": "Stev Leibelt",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "phpunit/phpunit": "4.2.6",
+        "psr/log": "1.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Trainee": "source/",
+            "Test": "test/"
+        }
+    }
+}
