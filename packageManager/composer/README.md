@@ -9,6 +9,7 @@ Learn how to use the [package manager](http://en.wikipedia.org/wiki/Package_mana
 * create an empty directory called "zf_demo_environment"
 * change into that directory
 * clone the [zf_demo_environment](https://github.com/bazzline/zf_demo_environment) in this directory
+* install composer in this directory
 * install needed packages
 * execute "php public/index", if no error is displayed, you have finished this part :-)
 * you can remove the directory "zf_demo_environment"
