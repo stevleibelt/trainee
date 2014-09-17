@@ -19,9 +19,10 @@ Learn how to use the [package manager](http://en.wikipedia.org/wiki/Package_mana
 * create an empty directory
 * create a composer.json file
 * add the dependency to the current stable version of [phpunit](https://phpunit.de/)
+* install composer in this directory
 * install this dependency
 * add the dependency to the current development version of [phpunit](https://phpunit.de/)
-* think about a way how to check that the phphunt is installed
+* think about a way how to check that the phpunit is installed
 * play around with composer
     * maybe try to install [Hoa\Console](https://github.com/hoaproject/Console)
         * create a simple console command or application
