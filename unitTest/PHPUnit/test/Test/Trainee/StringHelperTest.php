@@ -7,6 +7,7 @@
 namespace Test\Trainee;
 
 use PHPUnit_Framework_TestCase;
+use Trainee\StringHelper;
 
 /**
  * Class StringHelperTest
@@ -124,7 +125,7 @@ class StringHelperTest extends PHPUnit_Framework_TestCase
      */
     private function getNewStringHelper()
     {
-        return '@todo';
+        return new StringHelper();
     }
     //end of helper
 }
