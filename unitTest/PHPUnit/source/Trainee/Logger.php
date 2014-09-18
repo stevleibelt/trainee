@@ -27,6 +27,8 @@ class Logger extends AbstractLogger
     public function setOutput(OutputInterface $output)
     {
         $this->output = $output;
+
+        return $this;
     }
 
     /**
