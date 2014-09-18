@@ -71,4 +71,9 @@ class Directory
     {
 
     }
+
+    public function copy($oldName, $newName)
+    {
+
+    }
 } 
