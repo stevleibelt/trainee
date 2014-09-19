@@ -1,6 +1,7 @@
 # Mockery Trainee Story in Section Unit Test
 
 Learn how to use [mock objects](https://en.wikipedia.org/wiki/Mock_object) in [php](http://www.php.net) by using [mockery](https://github.com/padraic/mockery).
+Make sure you had done the [php unit trainee session](https://github.com/stevleibelt/trainee/tree/master/unitTest/PHPUnit) before starting this one.
 
 ## Tasks
 
