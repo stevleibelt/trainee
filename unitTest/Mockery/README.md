@@ -7,7 +7,7 @@ Make sure you had done the [php unit trainee session](https://github.com/stevlei
 
 * implement unit tests by using [dummy classes](https://en.wikipedia.org/wiki/Dummy_code)
 * copy dummy classes test and replace copies with mocks
-* mock Trainee\Timer partially by mocking the getCurrentTimestamp method
+* mock Trainee\Timer partially by mocking the getCurrentMicrotime method
 * copy mocked test rewrite them by using [phpunit mock objects](https://phpunit.de/manual/current/en/test-doubles.html#test-doubles.mock-objects)
 * if wanted, search for another php mocking framework and repeat the rewriting
 
