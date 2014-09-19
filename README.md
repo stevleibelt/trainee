@@ -13,5 +13,5 @@ Big thanks to [xyNNN](https://github.com/xyNNN) for this idea.
 * [Composer Trainee Story in Section Package Manager](https://github.com/stevleibelt/trainee/tree/master//packageManager/composer)
 * [Mockery Trainee Story in Section Unit Test](https://github.com/stevleibelt/trainee/tree/master//unitTest/Mockery)
 * [PHPUnit Trainee Story in Section Unit Test](https://github.com/stevleibelt/trainee/tree/master//unitTest/PHPUnit)
-* [@todo VfsStream Trainee Story in Section Unit Test](https://github.com/stevleibelt/trainee/tree/master//unitTest/VfsStream)
+* [VfsStream Trainee Story in Section Unit Test](https://github.com/stevleibelt/trainee/tree/master//unitTest/VfsStream)
 * [Git Trainee Story in Section Version Control System](https://github.com/stevleibelt/trainee/tree/master//vcs/git)
