@@ -6,6 +6,8 @@
 
 namespace Trainee;
 
+use RuntimeException;
+
 /**
  * Class Client
  * @package Trainee
@@ -62,6 +64,9 @@ class Client implements ClientInterface
         return $this->response;
     }
 
+    /**
+     * @throws RuntimeException
+     */
     public function ping()
     {
         $this->response = $this->network->pull($this->url);
