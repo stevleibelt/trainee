@@ -16,8 +16,8 @@ Make sure you had done the [php unit trainee session](https://github.com/stevlei
 * what is a mock?
 * what is a stub?
 * what is a test double?
-* are their any other popular mocking frameworks available for php?
+* are there any other popular mocking frameworks available for php?
     * what are the differences?
 * can you name benefits of using mocks?
-* how is a test called, that is not using mocks?
-* are their any limits by using mocks?
+* how is a test called, that not uses mocks?
+* are there any limits by using mocks?
