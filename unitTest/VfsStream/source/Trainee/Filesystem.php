@@ -122,9 +122,10 @@ class Filesystem
             if ($directoryHandle = opendir($path)) {
                 while (false !== ($name = readdir($directoryHandle))) {
                     if (!in_array($name, $blackList)) {
-                        if (is_dir($name)) {
+                        $fullQualifiedName = $path . DIRECTORY_SEPARATOR . $name;
+                        if (is_dir($fullQualifiedName)) {
                             $content['directories'][] = $name;
-                        } else if (is_file($name)) {
+                        } else if (is_file($fullQualifiedName)) {
                             $content['files'][] = $name;
                         }
                     }
@@ -227,11 +228,7 @@ class Filesystem
     {
         $existingData = $this->read($filename);
 
-        if (is_array($existingData)) {
-            array_unshift($existingData, $data);
-        }
-
-        $this->write($filename, $existingData);
+        $this->write($filename, $data . $existingData);
     }
 
     /**
