@@ -7,6 +7,11 @@ For php projects, a prepared composer.json file will be implemented when needed.
 
 Big thanks to [xyNNN](https://github.com/xyNNN) for this idea.
 
+## To Do
+
+* task for REST
+* task for AJAX
+
 ## Sections
 
 * [Propel1 Trainee Story in Section ORM](https://github.com/stevleibelt/trainee/tree/master//orm/propel1)
