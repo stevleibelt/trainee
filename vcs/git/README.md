@@ -58,3 +58,4 @@ Search for "public git test server" or "public svn test server" to play around w
 * [video tutorial](https://en.wikipedia.org/wiki/Git_(software))
 * [git on windows](http://gitbyexample.org/)
 * [top 10 tutorials for beginners](http://sixrevisions.com/resources/git-tutorials-beginners/)
+* [git scm wiki](https://git.wiki.kernel.org/)
